@@ -1,0 +1,50 @@
+TEST PLAN
+
+1. Introducere
+Acest plan de testare descrie strategia și activitățile necesare pentru testarea funcționalităților principale ale site-ului www.saucedemo.com. Scopul este de a valida că aplicația funcționează conform cerințelor și de a identifica defectele înainte de livrare.
+2. Obiectivele Testării
+•	Validarea funcționalității procesului de autentificare.
+•	Verificarea corectitudinii listării produselor.
+•	Testarea funcționalității coșului de cumpărături.
+•	Validarea procesului de checkout.
+•	Identificarea și raportarea eventualelor defecte funcționale sau de UI.
+3. Domeniul de aplicare
+În scop:
+•	Testarea funcțională a fluxurilor:
+o	Login/Logout
+o	Adăugare produse în coș
+o	Checkout
+o	Filtrarea produselor
+•	Testare de UI de bază (elemente vizibile, butoane funcționale)
+În afara scopului:
+•	Testare de performanță
+•	Testare de securitate
+•	Testare pe device-uri mobile (ne concentrăm pe desktop)
+4. Strategia de Testare
+•	Tehnici de testare: Testare funcțională, Black Box, bazată pe cazuri de test.
+•	Metoda de execuție: Testare manuală.
+•	Medii de testare:
+o	Browser Chrome (versiune actuală)
+o	Rezoluție minimă 1366x768
+5. Criterii de intrare și ieșire
+•	Criterii de intrare:
+o	Aplicația www.saucedemo.com este accesibilă.
+o	Datele de test sunt pregătite (ex: user standard_user / secret_sauce).
+•	Criterii de ieșire:
+o	Toate cazurile de test executate.
+o	Raportul de testare este finalizat.
+6. Livrabile
+•	Planul de testare (acest document)
+•	Cazuri de test scrise (Test Cases)
+•	Rapoarte de defecte (Bug Reports)
+•	Raport de testare final (Test Summary Report)
+7. Resurse
+•	Echipa: Trainee Testeri Manuali (grupul actual de curs)
+•	Instrumente:
+o	Google Sheets / Excel pentru cazuri de test si TSR
+o	GitHub pentru raportare defecte si urmarire status proiect
+o	Browser pentru execuție test
+8. Riscuri
+•	Lipsa unor specificații oficiale (testăm bazat pe comportament observat).
+•	Posibile instabilități pe site-ul demo, fiind o aplicație publică de test.
+
